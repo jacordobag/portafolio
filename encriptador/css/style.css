@@ -1,0 +1,217 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+
+main{
+    margin: 20px;
+    display: flex;
+    gap: 80px;
+    
+}
+
+.msg_principal{
+    height: 880px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.ingresa_texto{
+    width: 680px;
+    height: 700px;
+    size: 680px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: #F3F5FC;
+
+}
+
+.botones{
+    margin: 0px auto;
+}
+
+.advertencia{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.advertencia p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    width: 205px;
+    height: 18px;
+}
+
+.advertencia img{
+    width: 16px;
+    height: 16px;
+}
+
+.boton{
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    border: 1px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn_azul{
+    border-color: #0A3871;
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+
+.btn_vacio{
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    background: #D8DFE8;
+}
+
+.boton:hover{
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    background-color: #EFF1FA;
+}
+
+
+.btn_blanco{
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    background-color: #fff;
+}
+
+.msg_lateral{
+    width: 400px;
+    height: 944px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    text-align: center;
+    display: flex;
+}
+
+.imagen{
+    margin:auto;
+}
+
+.contenido_lateral{
+    margin:0px auto;
+}
+
+.msg_resultado{
+    width: 336px;
+    height: 781px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+footer p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #0A3871;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:786px){
+    body{
+        width: 786px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    main:not(:first-child){
+        align-items: center;
+    }
+
+    .msg_lateral{
+        width: 680px;
+        height: 343px;
+        margin-top: 20px;
+    }
+
+    .msg_resultado{
+        width: 624px;
+        height: 180px;
+    }
+
+    .btn_blanco{
+        width: 624px;
+        height: 67px;
+    }
+}
+
+@media screen and (max-width:375px){
+    body{
+        width: 375px;
+    }
+    .ingresa_texto{
+        width: 320px;
+        height: 400px;
+    }
+
+    .botones{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .msg_lateral{
+        width: 327px;
+        height: 343px;
+        margin-top: 5px;
+    }
+
+    .msg_resultado{
+        width: 279px;
+        height: 180px;
+    }
+
+    .btn_blanco{
+        width: 279px;
+        height: 67px;
+    }
+
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador-Desencriptador</title>
+</head>
+<body>
+    <main>
+        <div>
+            <img src="img/logo.png">
+        </div>
+        <div class="msg_principal">
+            <div >
+                <textarea class="ingresa_texto">Ingrese el texto aquí</textarea>
+                <!--<input class="ingresa_texto" type="text" placeholder="Ingrese el texto aquí">-->
+            </div>
+            <div class="botones">
+                <div class="advertencia">
+                    <img src="img/advertencia.png">
+                    <p> Solo letras minúsculas y sin acentos</p>
+                </div>
+                <button class="boton btn_azul" id="encriptar">Encriptar</button>
+                <button class="boton btn_vacio" id="desencriptar">Descencriptar</button>
+            </div>
+ 
+        </div>
+        <div class="msg_lateral">
+            <div id="imagen" class="imagen">
+                <img src="img/sinmensaje.png">
+            </div>
+            <div id="contenido_lateral" class="contenido_lateral">
+                <textarea id="msg_resultado" class="msg_resultado"></textarea>
+                <button id="copiar" class="boton btn_blanco">Copiar</button>
+            </div>
+        </div>
+        
+        
+    </main>
+    <footer>
+        <p>José Ángel Córdoba García | 2023</p>
+    </footer>
+    
+    
+</body>
+<script src="js/javascript.js"></script>
+</html>
